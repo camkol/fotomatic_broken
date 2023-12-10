@@ -286,6 +286,7 @@ footer {
     height: 28rem;
   }
   #sign-up-cta {
+    margin: auto;
     position: static;
     width: auto;
     height: auto;
@@ -372,7 +373,7 @@ footer {
           padding-left: 0.5rem;
           justify-content: space-around;
           align-items: center;
-          width: 100%;
+          width: auto;
         }
         li {
           padding: 0;
@@ -388,15 +389,16 @@ footer {
   }
   #sign-up-section {
     height: 20rem;
-  }
-  #sign-up-cta {
-    h1 {
-      font-size: 2.25rem;
+    #sign-up-cta {
+      h1 {
+        font-size: 2.25rem;
+      }
+      h2 {
+        font-size: 2rem;
+      }
     }
-    h2 {
-      font-size: 2rem;
-    }
   }
+
   #features-section {
     flex-flow: column;
     padding: 0;
