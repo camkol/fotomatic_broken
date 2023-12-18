@@ -338,6 +338,7 @@ footer .copyright {
   header .content {
     padding: 0;
     height: 3rem;
+    width: 100%;
   }
   header .content .desktop {
     display: none;
@@ -349,12 +350,16 @@ footer .copyright {
   header .content .mobile ul {
     display: flex;
     padding: 0;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
     width: 100%;
+    box-sizing: border-box;
+    margin: 0;
   }
   header .content .mobile li {
     padding: 0;
+    margin: 0 1.4rem;
+    flex: 0 0 auto;
   }
   header .content .mobile .button {
     padding: 0.1875rem 0.5rem;
@@ -364,6 +369,13 @@ footer .copyright {
   }
   #sign-up-section {
     height: 20rem;
+  }
+  #sign-up-section #sign-up-cta {
+    width: 100%;
+    padding: 0;
+  }
+  #sign-up-section #sign-up-cta .content {
+    width: 100%;
   }
   #sign-up-section #sign-up-cta h1 {
     font-size: 2.25rem;
