@@ -7,3 +7,5 @@
    -SASS
 
 ## Notes
+
+-Added page title
