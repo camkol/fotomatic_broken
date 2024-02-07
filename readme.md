@@ -4,9 +4,9 @@
 
 1. HTML
 2. CSS
-   -SASS
+   - SASS
 
 ## Notes
 
--Added page title
--Improved responsiveness
+- Added page title
+- Improved responsiveness
